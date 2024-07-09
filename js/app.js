@@ -1,1 +1,0 @@
-alert("Das ist ein Test");
