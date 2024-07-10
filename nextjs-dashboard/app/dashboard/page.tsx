@@ -1,3 +1,8 @@
 export default function Page() {
-    return <p>Dashboard Page</p>;
+    return (
+    <>
+        <h1>HEADLINE!!</h1>
+        <p>Dashboard Page</p>
+    </>
+    );
 }
