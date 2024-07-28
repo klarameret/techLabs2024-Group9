@@ -1,0 +1,93 @@
+/* styles/Sidenav.module.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-bottom: 1rem;
+}
+
+.nav ul ul {
+  margin-left: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.newListButton {
+  background-color: #00bfff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.newListButton:hover {
+  background-color: #89C4F4;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.mainContent {
+  margin-left: 280px; /* Platz für die Sidebar schaffen */
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    margin-left: 0; /* Kein Platz für die Sidebar auf kleinen Bildschirmen */
+    padding: 1rem;
+  }
+}
