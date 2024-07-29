@@ -16,7 +16,9 @@ body {
 footer {
   background-color: #303030;
   text-align: center;
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
 }
 
 .Page {
