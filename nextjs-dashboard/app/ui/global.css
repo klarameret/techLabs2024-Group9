@@ -1,3 +1,24 @@
+/* styles/global.css */
+html,
 body {
-  background-color: deepskyblue;
+  height: 100%;
+  margin: 0;
+  color: floralwhite;
+  background-color: #1a1a1a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: #303030;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.Page {
+  flex: 1;
 }

@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #303030;
 }
 
 .logo img {
@@ -16,7 +16,7 @@
 }
 
 .links a {
-    color: #0070f3;
+    color: rgb(243, 0, 0);
     text-decoration: none;
 }
 
