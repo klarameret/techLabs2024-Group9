@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className="">
-      <h1>ToDo App</h1>
+      <h1>ToDo App!</h1>
     </main>
   );
 }
