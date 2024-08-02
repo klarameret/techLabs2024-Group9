@@ -5,7 +5,7 @@ import { lusitana } from '@/app/ui/fonts';
 export default function Page() {
   return (
     <main className="mainContent">
-      <h1>ToDo App</h1>
+      <h1>ToDo App Neu</h1>
     </main>
   );
 }
