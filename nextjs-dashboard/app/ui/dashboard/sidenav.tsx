@@ -32,7 +32,12 @@ const Sidebar = () => {
             </li>
             <li>
               <Link href="/tasks">
-                Tasks
+                Alle Tasks
+              </Link>
+            </li>
+            <li>
+              <Link href="/projekte">
+                Projekte
               </Link>
               <ul>
                 <li><Link href="/tasks/projekt1">Projekt 1</Link></li>
@@ -42,9 +47,9 @@ const Sidebar = () => {
             </li>
             <li><Link href="/archiv">Archiv</Link></li>
             <li>
-              <Link href="/neue-liste" passHref>
+              <Link href="/neues-projekt" passHref>
                 <button className={styles.newListButton}>
-                  + Neue Liste
+                  + Neues Projekt
                 </button>
               </Link>
             </li>
